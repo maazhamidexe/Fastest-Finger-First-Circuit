@@ -1,7 +1,7 @@
 module tb_fastest_finger_first;
 
   reg clk, rst, buzzer_user1, buzzer_user2;
-  wire winner_user1, winner_user2;
+  wire winner_user1, winner_user2;`
 
   // Instantiate the module
   fastest_finger_first uut (
